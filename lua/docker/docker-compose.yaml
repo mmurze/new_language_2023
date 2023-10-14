@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  lua:
+    build:
+      context: .
+    container_name: lua_study
+    volumes:
+      - ../src:/home/student/src

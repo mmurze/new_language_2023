@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  swift:
+    build:
+      context: .
+    container_name: swift_study
+    volumes:
+      - ../src:/home/student/src

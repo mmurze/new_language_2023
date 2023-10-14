@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  golang:
+    build:
+      context: .
+    container_name: golang_study
+    volumes:
+      - ../src:/home/student/src
